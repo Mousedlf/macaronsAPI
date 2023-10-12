@@ -4,6 +4,9 @@ const MacaronSchema = new mongoose.Schema({
 
     name:{
         type: mongoose.SchemaTypes.String
+    },
+    color:{
+        type: mongoose.SchemaTypes.String
     }
 
 })

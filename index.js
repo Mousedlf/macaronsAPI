@@ -15,7 +15,7 @@ mongoose
 
 
 app.use(express.json()) // deseraliser
-app.use('api/macarons', macaronRoutes)
+app.use('/api/macarons', macaronRoutes)
 
 
 app.listen(port,()=>{
