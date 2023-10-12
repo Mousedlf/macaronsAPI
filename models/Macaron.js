@@ -8,4 +8,4 @@ const MacaronSchema = new mongoose.Schema({
 
 })
 
-mode.exports = mongoose.model('macarons', MacaronSchema)
+module.exports = mongoose.model('macarons', MacaronSchema)
